@@ -55,7 +55,6 @@ img {
 
 .navbar a {
     display: block;
-    padding: 8px;
     background-color: rgb(0, 19, 58);
     color: rgb(230, 247, 255);
     text-decoration: none;
@@ -67,6 +66,9 @@ img {
     text-decoration: underline;
 }
 
+
+
+/* HOME PAGE ---------------------------------------------------------*/
 
 /* Heading ---------------------------------------------------------*/
 .header {
@@ -131,7 +133,7 @@ aside {
 
 .terrestrialPlanets p, ul {
     color: rgb(230, 247, 255);
-    padding-top: 1%;
+    padding-top: 2%;
     padding-left: 10%;
     padding-right: 10%;
     text-align: center;
@@ -182,6 +184,11 @@ aside {
 }
 
 
+
+/* TERRESTRIAL PLANETS ---------------------------------------------------------*/
+
+
+
 /* Footer ---------------------------------------------------------*/
 .footer {
     background-color: rgb(0, 19, 58);
@@ -195,7 +202,6 @@ aside {
 
 .footer a {
     display: block;
-    padding: 8px;
     background-color: rgb(0, 19, 58);
     color: rgb(230, 247, 255);
     text-decoration: none;
@@ -217,7 +223,7 @@ aside {
     border-radius: 5px;
     border: white outset;
     height: 11%;
-    width: 10%;
+    width: 20%;
     margin: auto;
 }
 
@@ -233,6 +239,9 @@ aside {
     body {
         font-size: 20px;
         height: 100%;
+    }
+    .navbar a {
+        padding: 6% 16px;
     }
     .navbar ul {
         display: grid;
@@ -281,13 +290,16 @@ aside {
         grid-column: 1 / span 12;
         grid-row: initial;
     }
+    .footer a {
+        padding: 6% 16px;
+    }
     .footer ul {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         text-align: center;
     }
     #homeButton {
-        height: 11%;
+        height: 90%;
         width: 50%;
         margin: 0.1% 0.1% 0.1% 150%;
     }
