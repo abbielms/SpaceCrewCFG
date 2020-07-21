@@ -22,4 +22,4 @@ function planetChoice() {
         }
 }
 
-console.log("The user's favorite planet in the Solar System is " + planetChoice());
+console.log("The planet in the Solar System that the user would like to visit is " + planetChoice());
