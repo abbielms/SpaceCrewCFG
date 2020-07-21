@@ -4,19 +4,29 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Take Me To Space - Welcome to the Solar System</title>
+        <link rel="stylesheet" href="bootstrap.min.css">
         <link rel="stylesheet" href="style_space.css">
         <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+        <script type="text/javascript" src="takeMeToSpace.js"></script>
     </head>
 
     <body>
         <div class="container">
-            <nav class="navbar">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="terrestrialPlanets.html">Terrestrial Planets</a></li>
-                    <li><a href="JovianPlanets.html">Jovian Planets</a></li>
-                    <li><a href="takeMeToSpace.html">Take Me To Space</a></li>
-                </ul>
+            <nav class="navbar navbar-dark navbar-expand-lg">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <span class="navbar-text">
+                    The Solar System
+                </span>
+                <div class="collapse navbar-collapse" id="myTogglerNav">
+                    <div class="navbar-nav">
+                        <ul>
+                        <li><a class="nav-item nav-link active" href="index.html">Home</a></li>
+                        <li><a class="nav-item nav-link"  href="terrestrialPlanets.html">Terrestrial Planets</a></li>
+                        <li><a class="nav-item nav-link"  href="JovianPlanets.html">Jovian Planets</a></li>
+                        <li><a class="nav-item nav-link"  href="takeMeToSpace.html">Take Me To Space</a></li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
 
             <footer class="footer">
@@ -29,6 +39,8 @@
                 </ul>
             </footer>
 
-        </div>   
+        </div>  
+        <script src="jquery-3.5.1.js"></script>
+        <script src="bootstrap.min.js"></script>   
     </body>
 </html>
