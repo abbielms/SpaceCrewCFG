@@ -2,7 +2,7 @@
 html {
     box-sizing: border-box;
     font-family: arial, helvetica, sans-serif;
-    font-size: 110%;
+    font-size: 115%;
     background-color: black;
 }
 
@@ -432,15 +432,19 @@ tbody tr:nth-child(even) {
         padding: 10px 16px;
     }
     .navbar ul {
-        display: grid;
+        display: inline-block;
         grid-column: 1 / span 12;
         grid-row: 1;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         text-align: center;
     }
+    .navbar li {
+        display: inline-block;
+        text-align: center;
+    }
     .navbar-text {
-        text-align: left;
-        left: auto;
+        display: inline-block;
+        padding-right: 2%;
     }
     .solarSystemImg {
         grid-column: 1 / span 12;
@@ -469,7 +473,7 @@ tbody tr:nth-child(even) {
     .summary {
         grid-column: 1 / span 12;
         grid-row: 4;
-        border-bottom: 1px dashed rgb(0, 19, 58);
+        border-bottom: 1px dashed rgb(230, 247, 255);
         padding: auto;
 
     }
@@ -509,12 +513,9 @@ tbody tr:nth-child(even) {
         margin-right: 2%;
         border-radius: 50%;
     }
-    #homeButton {
-        font-size: 130%;
-        height: 90%;
-        width: 50%;
-        line-height: 150%;
-        margin: 0.1% 0.1% 0.1% 140%;
+    .btn {
+        font-size: 105%;
+        display: inline-block;
     }
     .carousel {
         grid-column: 3 / span 6;
