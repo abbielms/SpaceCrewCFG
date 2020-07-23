@@ -401,21 +401,12 @@ tbody tr:nth-child(even) {
     border-radius: 50%;
 }
 
-#homeButton {
-    text-align: center;
-    color: rgb(0, 26, 77);
-    background: rgb(242, 242, 242);
-    text-decoration: none;
-    font-weight: 600;
-    padding: 8px;
-    border-radius: 5px;
-    border: white outset;
-    height: 11%;
-    width: 20%;
-    margin: auto;
+.btn {
+    font-size: 105%;
+    display: inline-block;
 }
 
-#homeButton:hover {
+.btn:hover {
     color: rgb(230, 247, 255);
     background: rgb(0, 11, 31);
     text-decoration: underline;
