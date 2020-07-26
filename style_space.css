@@ -420,13 +420,6 @@ tbody tr:nth-child(even) {
     text-align: center;
   }
 .overlay {
-    h1{
-        font-size: 500px;
-    }
-    
-    p{
-        font-size: 300px;
-    }
     position: absolute;
     top: 50%;
     left: 50%;
