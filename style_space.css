@@ -419,7 +419,6 @@ tbody tr:nth-child(even) {
 .video {
     position: relative;
     text-align: center;
-}
 
 .overlay {
     position: absolute;
@@ -428,7 +427,6 @@ tbody tr:nth-child(even) {
     transform: translate(-50%, -50%);
     background-color: transparent;
 }
-
 
 @keyframes blink {
     from {color: red;}
@@ -460,10 +458,9 @@ tbody tr:nth-child(even) {
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
-  }
+}
 
-
-
+ 
 /* Media queries ---------------------------------------------------------*/
 @media screen and (min-width: 990px) {
     body {
