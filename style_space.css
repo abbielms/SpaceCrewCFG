@@ -419,6 +419,7 @@ tbody tr:nth-child(even) {
 .video {
     position: relative;
     text-align: center;
+}
 
 .overlay {
     position: absolute;
