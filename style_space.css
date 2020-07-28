@@ -81,30 +81,10 @@ img {
 /* Heading ---------------------------------------------------------*/
 .header {
     font-family: 'Comfortaa', cursive;
-    background-image: url('https://images.newscientist.com/wp-content/uploads/2019/07/02111520/gettyimages-157639696.jpg');
-    background-size: 270px;
-    background-repeat: repeat-x;
-    -webkit-background-clip: text;
-    animation: animate 15s linear infinite;
-    font-size: 150px;
-    color: rgba(255,255,255,.2);
+    background-color: black;
+    color: rgb(230, 247, 255);
     text-align: center;
     padding: 0% 5% 5%;
-  }
-  
-  @keyframes animate {
-    0% {
-      background-position: left 0px top 0px;
-    }
-    40% {
-      background-position: left 800px top 0px;
-    }
-  }
-  
-  .text-container {
-    margin-top: 17%;
-    text-align: center;
-  }
 }
 
 
