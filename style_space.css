@@ -40,9 +40,8 @@ img {
 
 .link:hover {
     text-decoration: underline;
+    color: rgb(230, 247, 255);
 }
-
-
 
 
 /* Navbar ---------------------------------------------------------*/
@@ -88,9 +87,18 @@ img {
     padding: 0% 5% 5%;
 }
 
-.header h1 {
-    font-size: 300%;
+@keyframes title_blink {
+    from {color: rgb(230, 247, 255);}
+    to {color: rgb(250, 223, 69);}
 }
+
+.title_blink {
+    font-size: 300%;
+    animation-name: title_blink;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+}
+
 
 
 /* Article ---------------------------------------------------------*/
@@ -223,6 +231,19 @@ article {
     grid-column: 1 / span 12;
     grid-row: 2;
     padding-top: 7%;
+    font-size: 110%;
+}
+
+@keyframes terrestrial_blink {
+    from {color: rgb(230, 247, 255);}
+    to {color: rgb(114, 245, 120);}
+}
+
+.terrestrial_blink {
+    font-size: 300%;
+    animation-name: terrestrial_blink;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
 }
 
 .carousel-inner img {
@@ -252,6 +273,7 @@ article {
 
 
 /* Planets ---------------------------------------------------------*/
+
 .mercury {
     grid-column: 1 / span 12;
     grid-row: 6;
@@ -359,6 +381,19 @@ tbody tr:nth-child(even) {
 /* Header ---------------------------------------------------------*/
 .jovianTitle {
     padding-top: 7%;
+    font-size: 110%;
+}
+
+@keyframes jovian_blink {
+    from {color: rgb(230, 247, 255);}
+    to {color: rgb(75, 197, 253);}
+}
+
+.jovian_blink {
+    font-size: 300%;
+    animation-name: jovian_blink;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
 }
 
 
@@ -419,6 +454,7 @@ tbody tr:nth-child(even) {
 .video {
     position: relative;
     text-align: center;
+}
 
 .overlay {
     position: absolute;
