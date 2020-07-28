@@ -107,19 +107,6 @@ img {
   }
 }
 
-@keyframes title_blink {
-    from {color: rgb(230, 247, 255);}
-    to {color: rgb(250, 223, 69);}
-}
-
-.title_blink {
-    font-size: 300%;
-    animation-name: title_blink;
-    animation-duration: 2.5s;
-    animation-iteration-count: infinite;
-}
-
-
 
 /* Article ---------------------------------------------------------*/
 article {
