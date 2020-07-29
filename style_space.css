@@ -360,6 +360,7 @@ thead {
 th {
     height: 40px;
     vertical-align: middle;
+    text-align: center;
 }
 
 td {
@@ -367,12 +368,18 @@ td {
     padding: 5px;
     background-color: rgb(230, 247, 255);
     vertical-align: middle;
+    text-align: center;
 }
 
 tbody tr:nth-child(even) {
     background-color: rgb(0, 19, 58);
 }
 
+.table-scroll {
+    overflow: auto;
+    margin-top: 10px;
+    margin-right: 18px;
+}
 
 
 
@@ -496,6 +503,16 @@ tbody tr:nth-child(even) {
     min-height: 100%;
 }
 
+.tmtsLinks {
+    color: rgb(230, 247, 255);
+    text-decoration: underline;
+}
+
+.tmtsLinks:hover {
+    color: rgb(230, 247, 255);
+    text-decoration: none;
+}
+
  
 /* Media queries ---------------------------------------------------------*/
 @media screen and (min-width: 990px) {
@@ -606,13 +623,22 @@ tbody tr:nth-child(even) {
         grid-row: 4;
         margin: auto;
     }
+    .table-scroll {
+        grid-column: 7 / span 6;
+        grid-row: 4;
+        width: 100%;
+    }
+    .table-wrapper{
+        grid-column: 7 / span 6;
+        grid-row: 4;
+        width: 100%;
+    }
     .terrestrialTable {
         grid-column: 7 / span 6;
         grid-row: 4;
     }
     table {
         font-size: 90%;
-
     }
     .mercury img {
         display: block;
