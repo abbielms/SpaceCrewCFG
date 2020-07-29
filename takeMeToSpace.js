@@ -5,7 +5,8 @@ function planetChoice() {
         } else if (planetUser == "Venus") {
             return  alert("Great choice!");
         } else if (planetUser == "Earth") {
-            return  alert("Great choice!");
+            var error = prompt("We are already on Earth! Please choose another planet in our Solar System to visit:");
+            return error;
         } else if (planetUser == "Mars") {
             return  alert("Great choice!");
         } else if (planetUser == "Jupiter") {
